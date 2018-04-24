@@ -6,7 +6,9 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0246cce-a4a1-4850-8225-cd061fb09146" name="Default" comment="" />
+    <list default="true" id="b0246cce-a4a1-4850-8225-cd061fb09146" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/RobotActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/RobotActivity.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,9 +31,63 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FieldGps.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FieldGps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/FieldGps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GolfBallDeliveryActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2147">
+              <caret line="477" column="65" lean-forward="false" selection-start-line="477" selection-start-column="65" selection-end-line="477" selection-end-column="65" />
+              <folding>
+                <element signature="e#10061#10118#0" expanded="true" />
+                <element signature="e#10196#10250#0" expanded="true" />
+                <element signature="e#11000#11251#0" expanded="true" />
+                <element signature="e#11250#11251#0" expanded="true" />
+                <element signature="e#12920#13055#0" expanded="true" />
+                <element signature="e#13054#13055#0" expanded="true" />
+                <element signature="e#13101#13236#0" expanded="true" />
+                <element signature="e#13235#13236#0" expanded="true" />
+                <element signature="e#15073#15363#0" expanded="true" />
+                <element signature="e#15362#15363#0" expanded="true" />
+                <element signature="e#15517#15907#0" expanded="true" />
+                <element signature="e#15906#15907#0" expanded="true" />
+                <element signature="e#16593#16594#0" expanded="true" />
+                <element signature="e#16660#16661#0" expanded="true" />
+                <element signature="e#16821#16822#0" expanded="true" />
+                <element signature="e#16889#16890#0" expanded="true" />
+                <element signature="e#17050#17051#0" expanded="true" />
+                <element signature="e#17104#17105#0" expanded="true" />
+                <element signature="e#17149#17150#0" expanded="true" />
+                <element signature="e#17212#17213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RobotActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/RobotActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3346">
+              <caret line="288" column="6" lean-forward="false" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -41,6 +97,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>onCommand</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1759,10 +1820,19 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/RobotActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1032" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1782,9 +1852,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1845,6 +1915,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="rosehulman" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golfballdelivery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GolfBallDeliveryApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1946,7 +2034,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524506810388" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524592014670" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2046,7 +2134,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524506810388" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524592014670" />
       </method>
     </configuration>
     <list size="1">
@@ -2093,7 +2181,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1032" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2112,7 +2200,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118716575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2142,6 +2230,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/FieldGps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2982">
+          <caret line="160" column="57" lean-forward="true" selection-start-line="160" selection-start-column="57" selection-end-line="160" selection-end-column="57" />
+          <folding>
+            <element signature="e#10061#10118#0" expanded="true" />
+            <element signature="e#10196#10250#0" expanded="true" />
+            <element signature="e#11000#11251#0" expanded="true" />
+            <element signature="e#11250#11251#0" expanded="true" />
+            <element signature="e#12920#13055#0" expanded="true" />
+            <element signature="e#13054#13055#0" expanded="true" />
+            <element signature="e#13101#13236#0" expanded="true" />
+            <element signature="e#13235#13236#0" expanded="true" />
+            <element signature="e#15073#15363#0" expanded="true" />
+            <element signature="e#15362#15363#0" expanded="true" />
+            <element signature="e#15517#15907#0" expanded="true" />
+            <element signature="e#15906#15907#0" expanded="true" />
+            <element signature="e#16593#16594#0" expanded="true" />
+            <element signature="e#16660#16661#0" expanded="true" />
+            <element signature="e#16821#16822#0" expanded="true" />
+            <element signature="e#16889#16890#0" expanded="true" />
+            <element signature="e#17050#17051#0" expanded="true" />
+            <element signature="e#17104#17105#0" expanded="true" />
+            <element signature="e#17149#17150#0" expanded="true" />
+            <element signature="e#17212#17213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2168,17 +2293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2215,9 +2329,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/FieldGps.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/me435/RobotActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3346">
+          <caret line="288" column="6" lean-forward="false" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/rosehulman/golfballdelivery/GolfBallDeliveryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2147">
+          <caret line="477" column="65" lean-forward="false" selection-start-line="477" selection-start-column="65" selection-end-line="477" selection-end-column="65" />
+          <folding>
+            <element signature="e#10061#10118#0" expanded="true" />
+            <element signature="e#10196#10250#0" expanded="true" />
+            <element signature="e#11000#11251#0" expanded="true" />
+            <element signature="e#11250#11251#0" expanded="true" />
+            <element signature="e#12920#13055#0" expanded="true" />
+            <element signature="e#13054#13055#0" expanded="true" />
+            <element signature="e#13101#13236#0" expanded="true" />
+            <element signature="e#13235#13236#0" expanded="true" />
+            <element signature="e#15073#15363#0" expanded="true" />
+            <element signature="e#15362#15363#0" expanded="true" />
+            <element signature="e#15517#15907#0" expanded="true" />
+            <element signature="e#15906#15907#0" expanded="true" />
+            <element signature="e#16593#16594#0" expanded="true" />
+            <element signature="e#16660#16661#0" expanded="true" />
+            <element signature="e#16821#16822#0" expanded="true" />
+            <element signature="e#16889#16890#0" expanded="true" />
+            <element signature="e#17050#17051#0" expanded="true" />
+            <element signature="e#17104#17105#0" expanded="true" />
+            <element signature="e#17149#17150#0" expanded="true" />
+            <element signature="e#17212#17213#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
