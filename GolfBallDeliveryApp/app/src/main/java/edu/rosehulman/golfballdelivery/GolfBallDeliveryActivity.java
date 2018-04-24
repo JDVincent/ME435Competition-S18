@@ -45,7 +45,7 @@ public class GolfBallDeliveryActivity extends RobotActivity implements FieldOrie
         READY_FOR_MISSION, NEAR_BALL_SCRIPT, DRIVE_TOWARDS_FAR_BALL, SEEKING_HOME, DRIVE_TOWARDS_HOME, FAR_BALL_SCRIPT, WAITING_FOR_PICKUP
     }
 
-    private State mState;
+    public State mState;
 
     /**
      * An array (of size 3) that stores what color is present in each golf ball stand location.
@@ -259,6 +259,13 @@ public class GolfBallDeliveryActivity extends RobotActivity implements FieldOrie
 	
 	
 	// --------------------------- Drive command ---------------------------
+
+    @Override
+    public void sendWheelSpeed( int leftDutyCycle, int rightDutyCycle){
+        super.sendWheelSpeed(leftDutyCycle, rightDutyCycle);
+        mLeftDutyCycleTextView.setText("Left\n" + mLeftDutyCycle);
+        mRightDutyCycleTextView.setText("Left\n" + mRightDutyCycle);
+    }
 	
 	
 
@@ -477,9 +484,32 @@ public class GolfBallDeliveryActivity extends RobotActivity implements FieldOrie
         if(mState == State.READY_FOR_MISSION){
             // This is the moment in time, when the match starts!
             mMatchStartTime = System.currentTimeMillis();
+            updateMissionStrategyVariables();
             mGoOrMissionCompleteButton.setBackgroundResource(R.drawable.red_button);
             mGoOrMissionCompleteButton.setText("Mission Complete!");
             setState(State.NEAR_BALL_SCRIPT);
         }
+    }
+
+    private void updateMissionStrategyVariables() {
+        // Goal is to set these values
+        mNearBallGpsY = -50;
+        mFarBallGpsY = 50;
+        mNearBallLocation = 1;
+        mWhiteBallLocation = 0;
+        mFarBallLocation = 3;
+
+        // Example of how you might write this code:
+        for(int i = 0; i < 3; i++){
+            BallColor currentLocationColor = mLocationColors[i];
+            if(currentLocationColor == BallColor.WHITE){
+                mWhiteBallLocation = i + 1;
+            }
+        }
+
+        Log.d(TAG, "Near ball location: " + mNearBallLocation+ " drop off at " + mNearBallGpsY);
+        Log.d(TAG, "Far ball location: " + mFarBallLocation+ " drop off at " + mFarBallGpsY);
+        Log.d(TAG, "Near ball location: " + mWhiteBallLocation);
+
     }
 }
